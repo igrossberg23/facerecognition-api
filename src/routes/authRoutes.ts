@@ -1,9 +1,5 @@
 import { Router } from 'express';
-import {
-  createUser,
-  processImage,
-  signIn,
-} from '../controllers/userController.ts';
+import { createUser, signIn } from '../controllers/userController.ts';
 
 const router = Router();
 
